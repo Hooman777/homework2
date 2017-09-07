@@ -9,4 +9,11 @@ setTimeout(function() {
     alert(name);
 
     document.getElementById("name").innerHTML = name;
+
+    var object = {
+        "name": name
+    };
+
+    console.log(object);
+
 }, 100);
