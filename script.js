@@ -2,13 +2,18 @@ setTimeout(function() {
     var x = 10;
     var y = 20;
 
-    alert(x + y);
-    // console.log(x + y);
+    console.log("x: " + x);
+    console.log("y: " + y);
+    console.log("x^2: " + Math.pow(x, 2));
+    console.log("y^2: " + Math.pow(y, 2));
+    console.log("sqrt(x): " + Math.sqrt(x));
 
-    var name = window.prompt("Enter your name?");
+    alert("x + y: " + (x + y));
+
+    var name = prompt("Enter your name?");
     alert(name);
 
-    document.getElementById("name").innerHTML = name;
+    document.getElementById("name-id").innerHTML = name;
 
     var object = {
         "name": name
